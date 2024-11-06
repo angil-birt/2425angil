@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--  
+  Website dependiente de index.html de la Sociedad Gastronomica y Cultural de Bujanda, donde se plasman recetas premiadas en concursos. 
+  Se ha empleado lista ordenada y desordenada, y un formulario. 
+--> 
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="LMSGI02 Tarea evaluativa 1 sobre HTML y CSS">
+    <meta name="keywords" content="HTML5, CSS3">
+    <title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="../estilos/estilos.css"/> 
+  </head>
+  <body>
+  	<p class="clase_img_principal">
+      <img src="../imagenes/index-logo-bujanda.jpg" title="Sociedad Gastronómica y Cultural Bujanda" alt="Sociedad Gastronomica y Cultural de Bujanda"></img>
+    </p>
+    <h2></h2>
+	  <div class="menu">
+		<a href="#form_contacto" title="Formulario">Formulario</a>
+		<a href="#direccion" title="Dirección postal">Dirección postal</a>
+		<a href="../index.html" title="Volver a página de inicio">Volver</a>
+	  </div>
+  <section>
+	<header><h3><a id="form_contacto"></a>Formulario de contacto</h3></header>
+	<p>Contacta con nosotros rellenando los siguientes datos y nos pondremos en contacto contigo lo antes posible:</p>
+	<form action="mailto:angil@birt.eus" method="post">
+		<p>Nombre: <input name="nombre" type="text"></p>
+		<p>Apellidos: <input name="apellidos" type="text"></p>
+		<p>Correo electrónico: <input name="posta" type="text"></p>
+		<p>Socio:
+			<input type="radio" id="Sí" name="Socio" value="Sí"/><label for="Sí">Sí</label> 
+			<input type="radio" id="No" name="Socio" value="No"/><label for="No">No</label>
+		</p>
+		<p>Mensaje:</p>
+			<textarea name="otros" rows="2" cols="50"></textarea>
+			<input type="submit" value="Enviar datos" title="Enviar"> 
+			<input name="Reset" type="reset" title="Limpiar datos">		
+	</form>
+	<p>NOTA: AL pulsar el botón [Enviar datos], según el RGPD se entenderá que consiente y manifiesta voluntad libre, específica, informada e inequívoca por la acepta, mediante una clara acción afirmativa, el tratamiento de los datos personales introducidos(art. 4.11).</p>
+	<header><h3><a id="direccion"></a>Dirección postal</h3></header>
+	<h4>Casa Palacio de los Abaitua</h4>
+	<p>Plaza de San Fausto, s/n</p> 
+	<p>01128 Bujanda, Álava</p>
+    <img src="../imagenes/4contacto-etxea.jpeg" title="Casa Palacio de los Abaitua" alt="Casa Palacio de los Abaitua"></img>
+ </section>
+  <footer>Responsable de la Sociedad Gastronómica y Cultural Bujanda: <a href class="hipervinculo"="https://www.kanpezu.eus/servicios/juntas-administrativas/#toggle-id-2" title="Junta Administrativa de Bujanda">Junta Administrativa de Bujanda</a>.</footer>
+  <p></p>
+  </body>
+</html>
