@@ -70,6 +70,9 @@ th{
 .menu a:hover{
  background-color: #575757;
 }
+#Recetas.hovered {
+	background-color: pink;
+}
 .menu a:visited{
  color: lavender; 
 }
