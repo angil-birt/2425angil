@@ -6,7 +6,6 @@
     <description>Sociedad Gastronómica de Bujanda</description>
     <language>es-es</language>
     <managingEditor>angil@birt.eus (Belén Gil)</managingEditor>
-    <!--
     <item>
         <title>Quienes somos</title>
         <link>https://angil-birt.github.io/2425angil/paginas/1quienessomos.html</link>
@@ -25,6 +24,5 @@
         <description>Recetas muy famosas en la Cuadrilla de Mendialdea, las cuales son atractivo turístico en las fiestas de Bujanda</description>
         <author>angil@birt.eus</author>
     </item>
-    -->
 </channel>
 </rss>
